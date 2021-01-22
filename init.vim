@@ -37,6 +37,7 @@ Plugin 'vim-ruby/vim-ruby'                    " Vim/Ruby Configuration Files
 Plugin 'stephpy/vim-yaml'                     " Override vim syntax for yaml files
 Plugin 'chrisbra/csv.vim'                     " A Filetype plugin for csv files
 Plugin 'ekalinin/Dockerfile.vim'              " Vim syntax file & snippets for Docker's Dockerfile
+Plugin 'lambdalisue/suda.vim'                 " suda is a plugin to read or write files with sudo command.
 call vundle#end()
 
 syntax on
@@ -281,3 +282,5 @@ function! SetArrowKeysAsTextShifters()
 endfunction
 
 call SetArrowKeysAsTextShifters()
+
+let g:suda_smart_edit = 1
