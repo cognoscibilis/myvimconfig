@@ -1,10 +1,3 @@
-" Run sudo apt install python3-neovim flake8
-" Put this config to: ~/.config/nvim/init.vim
-" Run git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-" sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
-" sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
-" sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
-" In Vim run :PluginInstall
 set nocompatible
 filetype off
 
